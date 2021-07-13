@@ -11,3 +11,9 @@ print(p.name)
 
 print(p.getAge())
 print(p.total)
+
+john = Person.Person('John Doe', 35)
+print(john.name)
+print(john.age)
+
+
