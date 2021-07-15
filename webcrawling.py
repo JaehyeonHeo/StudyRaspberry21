@@ -19,4 +19,4 @@ ultrafinedust = details[1].find('span', {'class':'num'}).get_text()
 # 오존수치
 ozone = details[2].find('span', {'class':'num'}).get_text()
 
-#print('{0}, {1}, {2}'.format(finedust, ultrafinedust, ozone))
+print('{0}, {1}, {2}'.format(finedust, ultrafinedust, ozone))
