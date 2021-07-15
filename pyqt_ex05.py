@@ -25,6 +25,8 @@ class MyWindow(QMainWindow):
         jsonSearch = api.getNaverSearchResult(sNode, search_word, 1, display)
         print(jsonSearch)
 
+        
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     win = MyWindow()
